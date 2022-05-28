@@ -141,19 +141,16 @@ You can switch to the training mode with the following instruction, and then you
 python 310551031_HW5.py --mode train
 ```
 
-The best model weight during training will be stored at checkpoint directory, and the training history will in the history_csv history.
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/44439517/170823975-101f712e-d089-446b-9c4a-2ea0ef90ddf1.png" title="confusion matrix" width="40%" height="40%"/>
-</p>
+The best model weight during training will be stored at **checkpoint directory**, and the training history will in the **history_csv history**.
 
-The training accuracy history are as following, which including training Accuracy, testing Accuracy.
+The training accuracy history are as following, which including training Accuracy, Validation Accuracy.
 <p float="center">
   <img src="https://user-images.githubusercontent.com/44439517/170825435-66398abe-57b8-4545-b5ff-298ed0d64a9a.png" title="confusion matrix" width="80%" height="80%"/>
 </p>
 
 The training Loss history are as following.
 <p float="center">
-  <img src="https://user-images.githubusercontent.com/44439517/170825569-4b498c1b-79a1-4a5b-89d6-bc23ffa5f15d.png" title="confusion matrix" width="80%" height="80%"/>
+  <img src="https://user-images.githubusercontent.com/44439517/170834762-f5edb3b8-0365-4e03-85b7-9cf607da2cab.png" title="confusion matrix" width="80%" height="80%"/>
 </p>
 
 
