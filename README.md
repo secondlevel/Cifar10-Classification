@@ -62,7 +62,7 @@ https://drive.google.com/drive/folders/1Boe0EZT1cyV6MxqqTFk1mufsGbThs4BG?usp=sha
 image_size = 224
 number_worker = 4
 batch_size = 64
-epochs = 100
+epochs = 10
 lr = 2e-5
 optimizer = AdamW
 ```
