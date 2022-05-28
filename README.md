@@ -141,7 +141,7 @@ You can switch to the training mode with the following instruction, and then you
 python 310551031_HW5.py --mode train
 ```
 
-The best model weight during training will be stored at **checkpoint directory**, and the training history will in the **history_csv history**.
+The best model weight during training will be stored at **checkpoint directory**, and the training history will in the **history_csv directory**.
 
 The training accuracy history are as following, which including training Accuracy, Validation Accuracy.
 <p float="center">
