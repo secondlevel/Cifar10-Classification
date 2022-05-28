@@ -167,7 +167,7 @@ python 310551031_HW5.py --mode test
 </p>
 
 <p float="center">
-  <img src="https://user-images.githubusercontent.com/44439517/170837576-2bb9755c-bfc0-4642-90ad-275394aed4b7.png" title="confusion matrix" width="40%" height="40%" hspace="250"/>
+  <img src="https://user-images.githubusercontent.com/44439517/170837774-216a6784-cb07-4bed-9f1d-9aa6f0b50add.png" title="confusion matrix" width="40%" height="40%" hspace="250"/>
 </p>
 
 
