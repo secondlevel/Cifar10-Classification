@@ -144,12 +144,12 @@ python 310551031_HW5.py --mode train
 
 The best model weight during training will be stored at **checkpoint directory**, and the training history will in the **history_csv directory**.
 
-The training accuracy history are as following, which including training Accuracy, Validation Accuracy.
+The training accuracy is as following.
 <p float="center">
   <img src="https://user-images.githubusercontent.com/44439517/170835536-1f03a6e0-f8d5-438f-802d-3096e28053a0.png" title="confusion matrix" width="80%" height="80%"/>
 </p>
 
-The training Loss history are as following.
+The training Loss history is as following.
 <p float="center">
   <img src="https://user-images.githubusercontent.com/44439517/170834762-f5edb3b8-0365-4e03-85b7-9cf607da2cab.png" title="confusion matrix" width="80%" height="80%"/>
 </p>
@@ -167,7 +167,7 @@ python 310551031_HW5.py --mode test
 </p>
 
 <p float="center">
-  <img src="https://user-images.githubusercontent.com/44439517/170824766-266c5ac6-b418-44d8-9dff-b0067486bbfd.png" title="confusion matrix" width="40%" height="40%" hspace="250"/>
+  <img src="https://user-images.githubusercontent.com/44439517/170837576-2bb9755c-bfc0-4642-90ad-275394aed4b7.png" title="confusion matrix" width="40%" height="40%" hspace="250"/>
 </p>
 
 
