@@ -39,8 +39,9 @@ pip install tqdm
 
 In this project, you can put the folder on the specified path according to the pattern in the following directory tree for training and testing.
 
-The model weight can be download in the following link https://drive.google.com/drive/folders/1Boe0EZT1cyV6MxqqTFk1mufsGbThs4BG?usp=sharing, please put it under the checkpoint directory.  
-The data can be download in the following link https://drive.google.com/drive/folders/1Boe0EZT1cyV6MxqqTFk1mufsGbThs4BG?usp=sharing, please put it in the under the repository according to the following description.
+The model weight can be download in the following link, please put it under the checkpoint directory.  
+The data can be download in the following link, please put it in the under the repository according to the following description.
+https://drive.google.com/drive/folders/1Boe0EZT1cyV6MxqqTFk1mufsGbThs4BG?usp=sharing
 
 ```bash=
 ├─ 310551031_HW5.py
