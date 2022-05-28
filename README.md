@@ -37,7 +37,7 @@ pip install tqdm
 
 ## Directory Tree
 
-In this project, you can put the folder on the specified path according to the pattern in the following directory tree for training and testing.
+In this homework, you can put the folder on the specified path according to the pattern in the following directory tree for training and testing.
 
 The model weight can be download in the following link, please put it under the checkpoint directory.  
 The data can be download in the following link, please put it in the under the repository according to the following description.
