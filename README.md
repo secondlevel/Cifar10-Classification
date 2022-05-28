@@ -34,6 +34,28 @@ conda install matplotlib pandas scikit-learn -y
 pip install tqdm
 ```
 
+
+## Directory Tree
+
+In this project, you can put the folder on the specified path according to the pattern in the following directory tree for training and testing.
+
+The model weight can be download in the following link https://drive.google.com/drive/folders/1Boe0EZT1cyV6MxqqTFk1mufsGbThs4BG?usp=sharing, please put it under the checkpoint directory.  
+The data can be download in the following link https://drive.google.com/drive/folders/1Boe0EZT1cyV6MxqqTFk1mufsGbThs4BG?usp=sharing, please put it in the under the repository according to the following description.
+
+```bash=
+├─ 310551031_HW5.py
+├─ environment.yml
+├─ history_csv
+│  └─ BEST_VIT_CIFAR.csv
+├─ checkpoint
+│  └─ BEST_VIT_CIFAR.rar
+├─ x_train.npy
+├─ x_test.npy
+├─ y_train.npy
+├─ y_test.npy
+└─ README.md
+```
+
 ## Hyperparameter Setting
 ```python=
 image_size = 224
