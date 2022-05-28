@@ -1,6 +1,6 @@
 # Cifar10-Classification(Pattern Recognition Homework5)
 
-This assignment is to train a model to classification the images of cigar 10. All the models in this project were built by pytorch.
+This assignment is to train a model to classification the images of cifar10. All the models in this project were built by pytorch.
 
 In addition, please refer to the following report link for detailed report and description of the experimental results.
 https://github.com/secondlevel/Cifar10-Classification/
