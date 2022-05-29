@@ -74,7 +74,7 @@ batch_size = 64
 epochs = 10
 lr = 2e-5
 optimizer = AdamW
-loss function = Crossentropy
+loss function = CrossEntropy
 ```
 
 ## Data preprocess
