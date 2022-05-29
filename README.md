@@ -59,7 +59,7 @@ https://drive.google.com/drive/folders/1Boe0EZT1cyV6MxqqTFk1mufsGbThs4BG?usp=sha
 └─ README.md
 ```
 
-## Executing Flow Chart
+## Flow Chart
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/44439517/170855893-8102bee2-3cc1-4159-bc91-70724ed00a37.png" title="normalization" width="60%" height="60%" hspace="200"/>
