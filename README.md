@@ -118,6 +118,7 @@ In addition, I added the linear layer to the Vision Transformer (VIT) [1], all t
 The Architecture of the classification model is as follows.
 
 ```python=
+import torch.nn as nn
 from torchvision import models
 
 class VIT(nn.Module):
