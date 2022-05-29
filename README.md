@@ -87,8 +87,6 @@ In order to avoid the problem of the cuda out of memory, I create the data loade
 - Ouput: DataLoader
 
 ```python=
-from torch.utils import data
-
 class CIFARLoader(data.Dataset):
     def __init__(self, image, label, transform=None):
 
@@ -120,9 +118,6 @@ In addition, I added the linear layer to the Vision Transformer (VIT) [1], all t
 The Architecture of the classification model is as follows.
 
 ```python=
-import torch.nn as nn
-from torchvision import models
-
 class VIT(nn.Module):
     def __init__(self, pretrained=True):
         super(VIT, self).__init__()
