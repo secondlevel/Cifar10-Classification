@@ -87,6 +87,8 @@ In order to avoid the problem of the cuda out of memory, I create the data loade
 - Ouput: DataLoader
 
 ```python=
+from torch.utils import data
+
 class CIFARLoader(data.Dataset):
     def __init__(self, image, label, transform=None):
 
