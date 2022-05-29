@@ -154,7 +154,7 @@ python 310551031_HW5.py --mode train
 
 The best model weight during training will be stored at **checkpoint directory**, and the training history will in the **history_csv directory**.
 
-The training accuracy is as following.
+The training accuracy history is as following.
 <p float="center">
   <img src="https://user-images.githubusercontent.com/44439517/170851167-f2885d45-c32d-4ceb-be79-117699e38442.png" title="accuracy curve" width="80%" height="80%"/>
 </p>
