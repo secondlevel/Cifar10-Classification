@@ -70,11 +70,12 @@ optimizer = AdamW
 ```
 
 ## Data preprocess
-The Data Preprocess include two parts. The first part is the standardization of pixel value([0, 255] to [0, 1]), and the second part is to adjust the image to 224 x 224.
+The Data Preprocess include three parts. The first part is the standardization of pixel value([0, 255] to [0, 1]). The second part is to adjust the image to 224 x 224.
+The third part is to design the custom dataloader.
 
 #### 1. Pixel Value Normalization
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/44439517/170822922-be60ba86-3468-45ce-912a-6dea30300e3c.png" title="resize image" width="80%" height="80%"/>
+  <img src="https://user-images.githubusercontent.com/44439517/170822922-be60ba86-3468-45ce-912a-6dea30300e3c.png" title="normalization" width="80%" height="80%"/>
 </p>
 
 #### 2. Resize Image to 224x224
@@ -82,7 +83,7 @@ The Data Preprocess include two parts. The first part is the standardization of 
   <img src="https://user-images.githubusercontent.com/44439517/170822937-4018b58f-5fdb-4369-8452-64b325c56e73.png" title="resize image" width="50%" height="50%"/>
 </p>
 
-## Data Loader
+#### 3. Data Loader
 In order to avoid the problem of the cuda out of memory, I create the data loader to process the data.
 
 - Input: Image Array, Label Array, Data Augmentation method.  
