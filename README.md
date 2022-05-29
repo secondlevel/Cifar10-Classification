@@ -8,11 +8,13 @@ https://github.com/secondlevel/Cifar10-Classification/
 ![image](https://user-images.githubusercontent.com/44439517/170820943-9cb1c3ae-74d1-429b-a631-60637d67d013.png)
 
 ## Hardware
+```bash=
 Operating System: Ubuntu 20.04.3 LTS  
 
 CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz  
 
 GPU: NVIDIA GeForce GTX TITAN X  
+```
 
 ## Requirement
 
