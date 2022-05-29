@@ -146,12 +146,12 @@ The best model weight during training will be stored at **checkpoint directory**
 
 The training accuracy is as following.
 <p float="center">
-  <img src="https://user-images.githubusercontent.com/44439517/170835536-1f03a6e0-f8d5-438f-802d-3096e28053a0.png" title="confusion matrix" width="80%" height="80%"/>
+  <img src="https://user-images.githubusercontent.com/44439517/170851167-f2885d45-c32d-4ceb-be79-117699e38442.png" title="accuracy curve" width="80%" height="80%"/>
 </p>
 
 The training Loss history is as following.
 <p float="center">
-  <img src="https://user-images.githubusercontent.com/44439517/170834762-f5edb3b8-0365-4e03-85b7-9cf607da2cab.png" title="confusion matrix" width="80%" height="80%"/>
+  <img src="https://user-images.githubusercontent.com/44439517/170851186-f468e5d4-70be-474d-8df2-73b06cfdcf4f.png" title="loss curve" width="80%" height="80%"/>
 </p>
 
 
