@@ -62,7 +62,7 @@ https://drive.google.com/drive/folders/1Boe0EZT1cyV6MxqqTFk1mufsGbThs4BG?usp=sha
 ## Flow Chart
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/44439517/170855893-8102bee2-3cc1-4159-bc91-70724ed00a37.png" title="normalization" width="70%" height="70%" hspace="200"/>
+  <img src="https://user-images.githubusercontent.com/44439517/170855893-8102bee2-3cc1-4159-bc91-70724ed00a37.png" title="normalization" width="70%" height="70%" hspace="0"/>
 </p>
 
 
@@ -127,7 +127,7 @@ In addition, I added the linear layer to the Vision Transformer (VIT) [1], all t
 
 The Architecture of the classification model is as follows.
 
-```python=
+```python
 class VIT(nn.Module):
     def __init__(self, pretrained=True):
         super(VIT, self).__init__()
