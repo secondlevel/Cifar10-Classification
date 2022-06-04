@@ -96,7 +96,7 @@ In order to avoid the problem of the cuda out of memory, I create the data loade
 - Input: Image Array, Label Array, Data Augmentation method.  
 - Ouput: DataLoader
 
-```python=
+```python
 class CIFARLoader(data.Dataset):
     def __init__(self, image, label, transform=None):
 
